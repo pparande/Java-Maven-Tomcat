@@ -25,6 +25,6 @@ public class App extends SpringBootServletInitializer {
 
    @RequestMapping(value = "/")
    public String hello() {
-      return "<center>Hello Shari </center>";
+      return "<center> Hello Jenkins! </center>";
    }
 }
